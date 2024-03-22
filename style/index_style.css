@@ -1,0 +1,14 @@
+body{
+    padding-left: 20px;
+}
+
+
+.wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:10px;
+    grid-auto-rows: minmax(10px, auto);
+}
+

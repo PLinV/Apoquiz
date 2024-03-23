@@ -1,0 +1,18 @@
+juste un site pour le apo quizz 
+
+comme un slide 
+
+
+prio : 
+
+- comptez les points 
+
+- avoir un classement pour chaque manche 
+
+- qui sont les joueur input
+
+
+pas une prio :
+
+- roulette pour les personnes 
+

@@ -11,6 +11,8 @@ prio :
 
 - qui sont les joueur input
 
+- fluidité
+
 
 pas une prio :
 

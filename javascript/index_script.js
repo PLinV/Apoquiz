@@ -50,7 +50,7 @@ function updateValue(e) {
         document.getElementById("joueurSpan" + nbJoueurnow).style.gridRow = nbJoueurnow;
         document.getElementById("joueurInput" + nbJoueurnow).style.gridRow = nbJoueurnow; 
         document.getElementById("joueurSpan" + nbJoueurnow).style.gridColumn = 1;
-        document.getElementById("joueurInput" + nbJoueur).style.gridColumn = 2;
+        document.getElementById("joueurInput" + nbJoueurnow).style.gridColumn = 2;
         
     }
     else if (nbJoueurlast > nbJoueurnow){

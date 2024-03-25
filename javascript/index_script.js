@@ -25,6 +25,8 @@ function updateValue(e) {
         listejoueur.appendChild(playerElementInput1);
         document.getElementById("joueurSpan1").style.gridRow = 1;
         document.getElementById("joueurInput1").style.gridRow = 1;
+        document.getElementById("joueurSpan" + 1).style.gridColumn = 1;
+        document.getElementById("joueurInput" + 1).style.gridColumn = 2;
     
 
         playerElementSpan.textContent = "joueur " + 2 + " :";
@@ -34,6 +36,8 @@ function updateValue(e) {
         listejoueur.appendChild(playerElementInput); 
         document.getElementById("joueurSpan" + 2).style.gridRow = 2;
         document.getElementById("joueurInput" + 2).style.gridRow = 2;
+        document.getElementById("joueurSpan" + 2).style.gridColumn = 1;
+        document.getElementById("joueurInput" + 2).style.gridColumn = 2;
 
         condition2player = true
     }
@@ -45,6 +49,9 @@ function updateValue(e) {
         listejoueur.appendChild(playerElementInput);
         document.getElementById("joueurSpan" + nbJoueurnow).style.gridRow = nbJoueurnow;
         document.getElementById("joueurInput" + nbJoueurnow).style.gridRow = nbJoueurnow; 
+        document.getElementById("joueurSpan" + nbJoueurnow).style.gridColumn = 1;
+        document.getElementById("joueurInput" + nbJoueur).style.gridColumn = 2;
+        
     }
     else if (nbJoueurlast > nbJoueurnow){
         document.getElementById("joueurSpan"+nbJoueurlast).remove();

@@ -7,8 +7,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(5, 1fr);
     gap:10px;
     grid-auto-rows: minmax(10px, auto);
+    column-width: auto;
 }
 

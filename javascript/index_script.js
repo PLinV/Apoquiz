@@ -1,8 +1,8 @@
 const nbJoueur = document.getElementById("nombrejoueur");
 const listejoueur = document.getElementById("listejoueur");
 let start = document.getElementById("start");
-let nbJoueurlast = 0
-let condition2player = false
+let nbJoueurlast = 0;
+let condition2player = false;
 start.disabled = true;
 
 nbJoueur.addEventListener("input", updateValue);

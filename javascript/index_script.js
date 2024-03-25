@@ -14,7 +14,7 @@ function updateValue(e) {
     const playerElementSpan = document.createElement("label");
     const playerElementInput = document.createElement("input");
     start.disabled=false;
-    let nbJoueurnow = parseInt(e.target.value)
+    let nbJoueurnow = parseInt(e.target.value);
     if (nbJoueurnow === 2 & condition2player === false) {
         const playerElementSpan1 = document.createElement("label");
         const playerElementInput1 = document.createElement("input");

@@ -26,5 +26,16 @@
       <input type="submit" value="START" id="start" />
     </form>
     <script src="javascript/index_script.js"></script>
+    <script>
+      document.getElementById('start').addEventListener('click', function(e) {
+        e.preventDefault(); // Empêche la soumission du formulaire par défaut
+        const nbJoueurs = document.getElementById('nombrejoueur').value;
+        // Construit l'URL avec le nombre de joueurs
+        const formAction = 'roulette/roulette.html?players=' + nbJoueurs;
+        // Redirige vers l'URL construite
+        window.location.href = formAction;
+      });
+      </script>
+      
   </body>
 </html>
